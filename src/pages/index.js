@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import InfoSection from '../components/InfoSection';
 import {homeObjOne, homeObjThree, homeObjTwo} from '../components/InfoSection/Data';
+import Footer from '../components/Footer/index.js';
 // import Services from '../components/Services';
 
 
@@ -23,6 +24,7 @@ const Home = () => {
             <InfoSection {...homeObjTwo}/>
             {/* <Services /> */}
             <InfoSection {...homeObjThree}/>
+            <Footer />
         </>
     );
 };
