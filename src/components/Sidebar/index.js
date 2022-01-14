@@ -13,18 +13,18 @@ const index = ({isOpen, toggle}) => {
                         About
                     </SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}>
-                        Discover
+                        Projects
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
                         Services
                     </SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                    <SidebarLink to="signup" onClick={() => window.location = 'mailto:kerger06@aol.com'}>
+                        Contact Me
                     </SidebarLink>
                 </SidebarMenu>
-                <SidebarBtnWrap>
+                {/* <SidebarBtnWrap>
                     <SidebarRoute to="/">Sign In</SidebarRoute>
-                </SidebarBtnWrap>
+                </SidebarBtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer>
     )

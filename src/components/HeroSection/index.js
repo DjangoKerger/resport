@@ -22,17 +22,17 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1> Djangos portfolio </HeroH1>
                 <HeroP>
-                    Hi This is my portfolio please hire me and pay me a lot thanks
+                    Hello, I'm Django. I am Web Developer looking for an entry level opportunity. 
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
-                        to='signup' 
+                        onClick={() => window.location = 'mailto:yourmail@gmail.com'}
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
                         primary='true'
                         dark='true'
                         >
-                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                        Contact me {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
