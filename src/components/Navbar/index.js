@@ -18,18 +18,18 @@ const Navbar = ({toggle}) => {
                            <NavLinks to="about">About</NavLinks>
                        </NavItem>
                        <NavItem>
-                           <NavLinks to="discover">Discover</NavLinks>
+                           <NavLinks to="discover">Projects</NavLinks>
                        </NavItem>
                        <NavItem>
-                           <NavLinks to="services">Services</NavLinks>
+                           <NavLinks to="services" onClick={() => window.location = 'mailto:kerger06@aol.com'}>Contact Me</NavLinks>
                        </NavItem>
-                       <NavItem>
+                       {/* <NavItem>
                            <NavLinks to="signup">Sign Up</NavLinks>
-                       </NavItem>
+                       </NavItem> */}
                    </NavMenu>
-                   <NavBtn>
+                   {/* <NavBtn>
                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                   </NavBtn>
+                   </NavBtn> */}
                </NavbarContainer>
            </Nav> 
         </>
