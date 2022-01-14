@@ -55,13 +55,13 @@ const Footer = () => {
                                 </SocialLogo>
                                 
                                 <SocialIcons>
-                                    <SocialIconLink href="//https://www.facebook.com/django.kerger/" target="_blank" aria-label="Facebook">
+                                    <SocialIconLink href="https://www.facebook.com/django.kerger/" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
                                     </SocialIconLink>
-                                    <SocialIconLink href="//https://www.linkedin.com/in/django-kerger-5a1a081a8/" target="_blank" aria-label="Linkedin">
+                                    <SocialIconLink href="https://www.linkedin.com/in/django-kerger-5a1a081a8/" target="_blank" aria-label="Linkedin">
                                         <FaLinkedin />
                                     </SocialIconLink>
-                                    <SocialIconLink href="//https://github.com/DjangoKerger" target="_blank" aria-label="Github">
+                                    <SocialIconLink href="https://github.com/DjangoKerger" target="_blank" aria-label="Github">
                                         <FaGithub />
                                     </SocialIconLink>
                                 </SocialIcons>
